@@ -1,2 +1,1 @@
-# SDP_as3
-# SDP_as3
+# Command Pattern was implemented
