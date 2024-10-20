@@ -1,4 +1,5 @@
-public interface Logger {
+public interface Logger //Создаем константы 
+{
     int INFO = 1;
     int WARNING = 2;
     int ERROR = 3;

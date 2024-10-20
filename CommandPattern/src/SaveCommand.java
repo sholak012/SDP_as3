@@ -1,4 +1,4 @@
-public class SaveCommand implements Command {
+public class SaveCommand implements Command { //Реализует Command определяет действие по сохранению
     private TextEditor editor;
 
     public SaveCommand(TextEditor editor) {

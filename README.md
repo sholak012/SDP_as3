@@ -3,7 +3,7 @@
 ### ConcreteCommand classes (e.g., OpenCommand): Implement the Command interface and define how to execute a specific action. They hold a receiver (TextEditor) and invoke its methods.
 ### Receiver (TextEditor): Knows how to perform the actual work requested by the command.
 ### Invoker (MenuOptions): Holds and invokes Command objects. It decouples the object that invokes the operation from the one that knows how to perform it.
-### Client (CommandPatternDemo): Creates ConcreteCommand objects and sets their receiver.
+### Main (CommandPatternDemo): Creates ConcreteCommand objects and sets their receiver.
 
 # SOLID Principles in the Command Pattern (Short Explanation)
 

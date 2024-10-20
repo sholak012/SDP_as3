@@ -1,3 +1,3 @@
 public interface Command {
-    void execute();
+    void execute();//Абстрактный метод. содержать логику выполнения команды
 }

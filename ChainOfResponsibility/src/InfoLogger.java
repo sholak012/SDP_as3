@@ -12,7 +12,8 @@ public class InfoLogger implements Logger {
         if (level == INFO) {
             System.out.println("Info: " + message);
         }
-        if (nextLogger != null) {
+        if (nextLogger != null) //Логгирует информационные сообщения или передает дальше
+        {
             nextLogger.logMessage(level, message);
         }
     }
